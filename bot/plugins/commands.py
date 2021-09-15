@@ -61,7 +61,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🤖 Bot Updates🤖', url=f"t.me/{MT_UPDATES}"
+                                    '🔔Group🔔', url=f"t.me/MOVIEMARKET_DISCUSSION_GROUP"
                                 )
                         ]
                     ]
