@@ -96,10 +96,10 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Support', url='t.me/Mo_Tech_Group'),
-        InlineKeyboardButton('Bot Updates', url=f't.me/{MT_UPDATES}')
+        InlineKeyboardButton('Support', url='https://t.me/MOVIEMARKET_DISCUSSION_GROUP'),
+        InlineKeyboardButton('Bot Updates', url=f'https://t.me/MOVIE_MARKET_CHANNEL')
     ],[
-        InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+        InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'https://telegra.ph/file/efa59bd0958efbf4f6b43.jpg')
     ],[   
         InlineKeyboardButton('🏠Home', callback_data='start'),
         InlineKeyboardButton('About😎', callback_data='about'),
